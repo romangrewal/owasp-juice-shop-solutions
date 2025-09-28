@@ -1,0 +1,5 @@
+- name: Install dependencies
+  hosts: localhost.localdomain
+  become: yes
+  roles:
+    - dependencies

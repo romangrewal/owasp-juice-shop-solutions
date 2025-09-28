@@ -1,0 +1,31 @@
+# Sensitive files
+*.vault
+*.key
+*.pem
+*.crt
+*.enc
+
+# Runtime artifacts
+*.retry
+*.log
+*.out
+*.err
+
+# Roles and collections (optional)
+collections/
+__pycache__/
+*.pyc
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Test files
+test_*.yml
+tests/
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+

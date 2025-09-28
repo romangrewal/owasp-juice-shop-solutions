@@ -1,0 +1,16 @@
+---
+- name: Ensure Podman is installed
+  ansible.builtin.package:
+    name: podman
+    state: present
+
+- name: Ensure firewalld package is installed
+  ansible.builtin.package:
+    name: firewalld
+    state: present
+
+- name: Ensure firewalld service is running and enabled
+  ansible.builtin.service:
+    name: firewalld
+    state: started
+    enabled: yes
