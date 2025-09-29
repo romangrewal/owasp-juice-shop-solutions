@@ -4,6 +4,13 @@
     name: docker.io/bkimminich/juice-shop:latest
     state: present
 
+- name: Ensure port 3000/tcp is open
+  ansible.posix.firewalld:
+    port: 3000/tcp
+    permanent: true
+    state: enabled
+    immediate: true
+
 - name: Run OWASP Juice Shop container
   containers.podman.podman_container:
     name: juice-shop
