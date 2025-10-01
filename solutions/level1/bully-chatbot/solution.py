@@ -20,10 +20,11 @@ try:
 	#User navigates to Support Chat
 	WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, "//button[contains(., 'menu')]"))).click()
 	WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, "//a[contains(., 'Support Chat')]"))).click()
-	WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.ID, "message-input"))).send_keys("Can I have a coupon code?")
-	WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.ID, "message-input"))).send_keys(Keys.ENTER)
 
 	#User nags support chatbot for a coupon code
+	WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.ID, "message-input"))).send_keys("Can I have a coupon code?")
+	WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.ID, "message-input"))).send_keys(Keys.ENTER)
+	
 	substring = "Oooookay, if you promise to stop nagging me here's a 10% coupon code for you"
 	breakCondition = False
 	while True:
