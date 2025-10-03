@@ -1,5 +1,5 @@
-## Error Handling 
-### Challenge: Provoke an error that is neither very gracefully nor consistently handled.
+## Exposed Metrics
+### Challenge: Find the endpoint that serves usage data to be scraped by a popular monitoring system
 
 * Scroll through https://prometheus.io/docs/introduction/first\_steps
 * Notice several mentions of /metrics as the default path scraped by Prometheus
