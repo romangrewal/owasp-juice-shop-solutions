@@ -1,5 +1,5 @@
 ## Mass Dispel 
-### Challenge: Close multiple "Challenge solved"-notifications in one go.
+### Challenge: Close multiple "Challenge solved" notifications in one go.
 
 * Restart Juice Shop instance
 * Delete browser cookies
