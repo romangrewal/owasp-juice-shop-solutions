@@ -21,11 +21,11 @@ try:
 
 	mat_select_element = WebDriverWait(driver, 10).until(
 		EC.element_to_be_clickable((By.CSS_SELECTOR, "mat-select[role='combobox']"))
-  )
+	)
 	mat_select_element.click()
 	mat_option_element = WebDriverWait(driver, 10).until(
 		EC.element_to_be_clickable((By.XPATH, f"//mat-option[contains(., 'Your eldest siblings middle name?')]"))
-  )
+	)
 	mat_option_element.click()
 	
 	WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.ID, "securityAnswerControl"))).send_keys("test")
