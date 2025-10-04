@@ -5,6 +5,7 @@ import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 import jsbeautifier
+import os
 
 def scan_js_for_string(url, search_string):
   try:
@@ -24,9 +25,11 @@ def scan_js_for_string(url, search_string):
     return False, None
 
 try:
+	IP_ADDRESS = os.environ['OWASP_JUICE_SHOP_IP_ADDRESS']
+	PORT = os.environ['OWASP_JUICE_SHOP_PORT']
   search_string = input("Enter search route: ")
   #Fetch HTML content (user opens browser)
-  url = "http://192.168.0.217:3000"
+  url = f"http://'{IP_ADDRESS}':'{PORT}'"
   response = requests.get(url)
   html_content = response.text
 
@@ -45,7 +48,7 @@ try:
     found, content = scan_js_for_string(file_url, search_string)
 
     if found:
-      driver.get("http://192.168.0.217:3000/#/" + search_string)
+      driver.get(f"http://'{IP_ADDRESS}':'{PORT}'/#/" + search_string)
 
 finally:
   driver.quit()
