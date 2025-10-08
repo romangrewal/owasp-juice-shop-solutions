@@ -54,7 +54,7 @@ try:
 	PORT = os.environ['OWASP_JUICE_SHOP_PORT']
   #User opens browser
 	driver = webdriver.Chrome()
-	driver.get(f"http://'{IP_ADDRESS}':'{PORT}'")
+	driver.get(f"http://{IP_ADDRESS}:{PORT}")
 
 	#User navigates to registration screen
 	WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, "//button[contains(., 'Dismiss')]"))).click()
@@ -124,7 +124,7 @@ try:
 
 	#User inspects main.js for "redirect?to=" text after discovering redirect in "Other payment options"
 	search_string = "redirect?to="
-	mainJsUrl = f"http://'{IP_ADDRESS}':'{PORT}'/main.js"
+	mainJsUrl = f"http://{IP_ADDRESS}:{PORT}/main.js"
 
 	formattedOutput = beautify_js_from_url(mainJsUrl)
 

@@ -10,7 +10,7 @@ try:
 	IP_ADDRESS = os.environ['OWASP_JUICE_SHOP_IP_ADDRESS']
 	PORT = os.environ['OWASP_JUICE_SHOP_PORT']
 	driver = webdriver.Chrome()
-	driver.get(f"http://'{IP_ADDRESS}':'{PORT}'")
+	driver.get(f"http://{IP_ADDRESS}:{PORT}")
 
 	#User navigates to About Us Page
 	WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, "//button[contains(., 'Dismiss')]"))).click()
@@ -21,7 +21,7 @@ try:
 	WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, "//a[contains(., 'About Us')]"))).click()
 
 	#User attempts to browse directory by changing the url to http://<ip>:<port>/ftp
-	driver.get("http://192.168.0.217:3000/ftp")
+	driver.get("http://{IP_ADDRESS}:{PORT}/ftp")
 
 	#User accesses confidential document
 	WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, "//a[contains(., 'acquisitions.md')]"))).click()

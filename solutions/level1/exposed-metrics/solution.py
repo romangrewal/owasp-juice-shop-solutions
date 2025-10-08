@@ -12,10 +12,10 @@ try:
 	driver = webdriver.Chrome()
 
 	#User visits OWASP Juice Shop
-	driver.get(f"http://'{IP_ADDRESS}':'{PORT}'")
+	driver.get(f"http://{IP_ADDRESS}:{PORT}")
 
 	#User navigates to exposed metrics page
-	driver.get(f"http://'{IP_ADDRESS}':'{PORT}'/metrics")
+	driver.get(f"http://{IP_ADDRESS}:{PORT}/metrics")
 	
 finally:
   driver.quit()

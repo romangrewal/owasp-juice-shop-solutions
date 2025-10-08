@@ -10,7 +10,7 @@ try:
 	IP_ADDRESS = os.environ['OWASP_JUICE_SHOP_IP_ADDRESS']
 	PORT = os.environ['OWASP_JUICE_SHOP_PORT']
 	driver = webdriver.Chrome()
-	driver.get(f"http://'{IP_ADDRESS}':'{PORT}'")
+	driver.get(f"http://{IP_ADDRESS}:{PORT}")
 
 	#User navigates to REST error page
 	driver.get("http://192.168.0.217:3000/rest")

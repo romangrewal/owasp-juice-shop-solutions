@@ -6,9 +6,9 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 import jsbeautifier
 import os
+import time
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-import time
 
 def scan_js_for_string(url, search_string):
   try:
@@ -56,4 +56,4 @@ try:
 			time.sleep(3)
 
 finally:
-	driver.quit()
+  driver.quit()
