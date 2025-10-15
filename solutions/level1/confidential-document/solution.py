@@ -18,13 +18,14 @@ try:
 	WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, "//a[contains(., 'About Us')]"))).click()
 
 	#User clicks on "Check out our boring terms of use if you are interested in such lame stuff" link
-	WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, "//a[contains(., 'About Us')]"))).click()
+	WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, "//a[contains(., 'Check out our boring terms of use if you are interested in such lame stuff')]"))).click()
 
 	#User attempts to browse directory by changing the url to http://<ip>:<port>/ftp
-	driver.get("http://{IP_ADDRESS}:{PORT}/ftp")
+	driver.get(f"http://{IP_ADDRESS}:{PORT}/ftp")
 
 	#User accesses confidential document
 	WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, "//a[contains(., 'acquisitions.md')]"))).click()
 
+	input("Press Enter to continue...")
 finally:
   driver.quit()
