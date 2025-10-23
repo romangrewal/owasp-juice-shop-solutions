@@ -10,7 +10,7 @@ try:
 	IP_ADDRESS = os.environ['OWASP_JUICE_SHOP_IP_ADDRESS']
 	PORT = os.environ['OWASP_JUICE_SHOP_PORT']
 	driver = webdriver.Chrome()
-
+	
 	#User visits OWASP Juice Shop
 	driver.get(f"http://{IP_ADDRESS}:{PORT}")
 

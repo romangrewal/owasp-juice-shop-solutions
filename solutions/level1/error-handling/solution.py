@@ -11,12 +11,12 @@ try:
 	PORT = os.environ['OWASP_JUICE_SHOP_PORT']
 	driver = webdriver.Chrome()
 	driver.get(f"http://{IP_ADDRESS}:{PORT}")
-
+	
 	#User navigates to REST error page
-	driver.get("http://192.168.0.217:3000/rest")
+	driver.get(f"http://{IP_ADDRESS}:{PORT}/rest")
 	
 	#User navigates to login screen
-	driver.get("http://192.168.0.217:3000")
+	driver.get(f"http://{IP_ADDRESS}:{PORT}")
 	WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, "//button[contains(., 'Dismiss')]"))).click()
 	WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, "//button[contains(., 'Account')]"))).click()
 	WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, "//button[contains(., 'Login')]"))).click()
@@ -24,6 +24,7 @@ try:
 	#User logs into application with single-quote and anything as Password
 	WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.ID, "email"))).send_keys("'")
 	WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.ID, "password"))).send_keys("any")
+	WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, "//button[contains(., 'Log in')]"))).click()
 	
 finally:
   driver.quit()
