@@ -53,7 +53,5 @@ try:
 		if found:
 			driver.get(f"http://{IP_ADDRESS}:{PORT}/#/" + search_string)
 			WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, "//button[contains(., 'Dismiss')]"))).click()
-			time.sleep(3)
-
 finally:
   driver.quit()

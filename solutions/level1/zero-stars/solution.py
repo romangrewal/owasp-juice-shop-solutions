@@ -34,9 +34,7 @@ try:
 	driver.execute_script(f"arguments[0].classList.remove('{classToRemove}');", submitButton)
 	driver.execute_script(f"arguments[0].removeAttribute('{disableAttribute}');", submitButton)
 	driver.execute_script(f"arguments[0].removeAttribute('{matDisable}');", submitButton)
-	time.sleep(3)
 	driver.execute_script("arguments[0].click();", submitButton)
-	time.sleep(3)
 	
 finally:
   driver.quit()
