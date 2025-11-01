@@ -1,5 +1,5 @@
 ## Reflected XSS
-### Challenge: Perform a reflected XSS attack with `<iframe src="javascript:alert(\`xss\`)">`.
+### Challenge: Perform a reflected XSS attack with ``<iframe src="javascript:alert(`xss`)">``.
 
 * Log in to the application as any user
 * Order some items
