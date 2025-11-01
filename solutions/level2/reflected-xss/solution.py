@@ -57,7 +57,7 @@ try:
 	WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, "//button[contains(., 'Your Basket')]"))).click()
 	checkoutButton = WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, "//button[contains(., 'Checkout')]")))
 	driver.execute_script("arguments[0].click();", checkoutButton)
-
+	
 	#User adds new address
 	WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, "//button[contains(., 'Add New Address')]"))).click()
 	WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, "//input[@placeholder='Please provide a country.']"))).send_keys("USA")
@@ -70,13 +70,11 @@ try:
 	WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, "//button[contains(., 'Submit')]"))).click()
 
 	#User selects address for delivery
-	time.sleep(3)
 	radioButtonIdAddress = "mat-radio-41-input"  # Replace with the actual ID
 	driver.execute_script(f"document.getElementById('{radioButtonIdAddress}').click();")
 	WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, "//button[contains(., 'Continue')]"))).click()
 
 	#User selects delivery speed
-	time.sleep(3)
 	radioButtonIdDelivery = "mat-radio-42-input"  # Replace with the actual ID
 	driver.execute_script(f"document.getElementById('{radioButtonIdDelivery}').click();")
 	WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, "//button[contains(., 'Continue')]"))).click()
@@ -111,5 +109,10 @@ try:
 	#User attempts reflected xss in URL
 	driver.get(f"http://{IP_ADDRESS}:{PORT}/#/track-result?id=%3Ciframe%20src%3D%22javascript:alert(%60xss%60)%22%3E")
 	driver.refresh()
+	
+	#User clicks 'Ok' button of alert box
+	WebDriverWait(driver, 20).until(EC.alert_is_present())
+	alert = driver.switch_to.alert
+	alert.accept()
 finally:
   driver.quit()
