@@ -5,4 +5,4 @@
 * Search for 'administrator' route with string search
 * Navigate to account login
 * Login as administrator with SQL injection or email&password combo
-* Visit http://<ip>:<port>/#/administration to complete this challenge
+* Visit http://\<ip\>:\<port\>/#/administration to complete this challenge
