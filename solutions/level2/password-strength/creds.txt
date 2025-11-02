@@ -1,0 +1,8 @@
+user@test.com:password123
+roman@hello.com:Password1!
+testuser1@example.com:password123
+admin@test.local:TestPass!
+user_a@b.com:qwerty
+admin@juice-sh.op:admin123
+dev_account@dev.com:secure_test_pw
+guest_access@guest.com:let_me_in

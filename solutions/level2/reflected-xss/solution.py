@@ -7,7 +7,6 @@ from urllib.parse import urljoin
 import jsbeautifier
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-import time
 import os
 from selenium.webdriver.support.ui import Select
 
