@@ -4,8 +4,10 @@
 * Navigate to account login
 * Use password cracking software to login with admin credentials 
   * Credentials
+  
   ` {email: admin@juice-sh.op, password: admin123} `
-  * Password cracking methods
+
+   * Password cracking methods
     * Brute Force
     * Dictionary
     * Rainbow Table
