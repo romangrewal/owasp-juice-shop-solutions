@@ -3,9 +3,9 @@
 
 1. Navigate to account login
 2. Use password cracking software to login with admin credentials 
-  * Credentials
+   * Credentials
   
-  ` {email: admin@juice-sh.op, password: admin123} `
+     ` {email: admin@juice-sh.op, password: admin123} `
 
    * Password cracking methods
      * Brute Force
