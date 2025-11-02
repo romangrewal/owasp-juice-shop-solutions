@@ -1,8 +1,8 @@
 ## Privacy Policy 
 ### Challenge: Read our privacy policy.
 
-* Navigate to registration screen, Account > Login > Not yet a customer?
-* Register as new user
-* After redirect to login screen, login with your user account
-* Navigate to Privacy Policy, Account > Privacy & Security > Privacy Policy
-* Read the Privacy Policy
+1. Navigate to registration screen, Account > Login > Not yet a customer?
+2. Register as new user
+3. After redirect to login screen, login with your user account
+4. Navigate to Privacy Policy, Account > Privacy & Security > Privacy Policy
+5. Read the Privacy Policy
