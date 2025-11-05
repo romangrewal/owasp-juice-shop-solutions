@@ -1,5 +1,5 @@
 ## View Basket
-### Challenge: Perform a reflected XSS attack with ``<iframe src="javascript:alert(`xss`)">``.
+### Challenge: View another user's shopping basket.
 
 1. Log in to the application as any user
 2. Order some items
