@@ -25,7 +25,7 @@ try:
 	driver = webdriver.Chrome(options=chrome_options)
 
 	driver.get(f"http://{IP_ADDRESS}:{PORT}")
-
+	
 	#User navigates to registration screen
 	WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, "//button[contains(., 'Dismiss')]"))).click()
 	WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, "//button[contains(., 'Account')]"))).click()
@@ -75,7 +75,7 @@ try:
 	new_value = driver.execute_script(f"return window.sessionStorage.getItem('{key_to_get}');")
 	print(f"Retrieved session storage item: '{key_to_get}' = '{new_value}'")
 	#User proceeds to basket
-	WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, "//button[contains(., 'Your Basket')]"))).click()
+	driver.refresh()
 	
 finally:
   driver.quit()
