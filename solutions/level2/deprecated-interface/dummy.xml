@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+  <book id="bk101">
+    <author>Gambardella, Matthew</author>
+    <title>XML Developer's Guide</title>
+    <genre>Computer</genre>
+    <price>44.95</price>
+    <publish_date>2000-10-01</publish_date>
+    <description>An in-depth look at creating applications with XML.</description>
+  </book>
+  <book id="bk102">
+    <author>Corets, Eva</author>
+    <title>Maeve Ascendant</title>
+    <genre>Fantasy</genre>
+    <price>5.95</price>
+    <publish_date>2000-09-01</publish_date>
+    <description>A novel about a young woman's journey to self-discovery.</description>
+  </book>
+  <book id="bk103">
+    <author>Tolkien, J.R.R.</author>
+    <title>The Hobbit</title>
+    <genre>Fantasy</genre>
+    <price>12.99</price>
+    <publish_date>1937-09-21</publish_date>
+    <description>The classic tale of Bilbo Baggins and his unexpected adventure.</description>
+  </book>
+</library>
