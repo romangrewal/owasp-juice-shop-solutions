@@ -23,6 +23,21 @@ export OWASP_JUICE_SHOP_PORT=3000
 
 ## Table of Contents
 ### :star: Challenges
+- :heavy_check_mark: [Score Board](./solutions/level1/score-board) - `Miscellaneous`
+- :heavy_check_mark: [DOM XSS](./solutions/level1/dom-xss.md) - `Cross Site Scripting`
+- :heavy_check_mark: [Bonus Payload](./solutions/level1/dom-xss.md) - `Cross Site Scripting`
+- :heavy_check_mark: [Privacy Policy](./solutions/level1/privacy-policy.md) - `Miscellaneous`
+- :heavy_check_mark: [Bully Chatbot](./solutions/level1/bully-chatbot.md) - `Prompt Injection`
+- :heavy_check_mark: [Confidential Document](./solutions/level1/confidential-doc.md) - `Sensitive Data Exposure`
+- :heavy_check_mark: [Error Handling](./solutions/level1/error-handling.md) - `Security Misconfiguration`
+- :heavy_check_mark: [Exposed Metrics](./solutions/level1/exposed-metrics.md) - `Sensitive Data Exposure`
+- :heavy_check_mark: [Mass Dispel](./solutions/level1/mass-dispel) - `Miscellaneous`
+- :heavy_check_mark: [Missing Encoding](./solutions/level1/missing-encoding.md) - `Improper Input Validation`
+- :heavy_check_mark: [Outdated Allowlist](./solutions/level1/outdated-whitelist.md) - `Unvalidated Redirects`
+- :heavy_check_mark: [Repetitive Registration](./solutions/level1/repeat-register.md)  - `Improper Input Validation`
+- :heavy_check_mark: [Web3 Sandbox](./solutions/level1/web3-sandbox) - `Security Misconfiguration`
+- :heavy_check_mark: [Zero Stars](./solutions/level1/zero-stars.md) - `Improper Input Validation`
+
 ### :star::star: Challenges
 ### :star::star::star: Challenges
 ### :star::star::star::star: Challenges
