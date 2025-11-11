@@ -1,7 +1,7 @@
 # OWASP Juice Shop Solutions
 Penetration Testing with OWASP Juice Shop
 
-## Installation and Setup
+## Installation & Setup
 1. Install VirtualBox
 2. Install Vagrant
 3. Setup Vagrant environment for VirtualBox
