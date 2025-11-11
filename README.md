@@ -1,7 +1,7 @@
 # OWASP Juice Shop Solutions
 Penetration Testing with OWASP Juice Shop
 
-## Installation
+## Installation and Setup
 1. Install VirtualBox
 2. Install Vagrant
 3. Setup Vagrant environment for VirtualBox
@@ -21,7 +21,7 @@ export OWASP_JUICE_SHOP_PORT=3000
 2. Change to solution directory
 3. Run `python3 solution.py`
 
-## Solutions
+## Table of Contents
 ### :star: Challenges
 ### :star::star: Challenges
 ### :star::star::star: Challenges
