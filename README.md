@@ -20,3 +20,11 @@ export OWASP_JUICE_SHOP_PORT=3000
 ```
 2. Change to solution directory
 3. Run `python3 solution.py`
+
+## Solutions
+### :star: Challenges
+### :star::star: Challenges
+### :star::star::star: Challenges
+### :star::star::star::star: Challenges
+### :star::star::star::star::star: Challenges
+### :star::star::star::star::star::star: Challenges
