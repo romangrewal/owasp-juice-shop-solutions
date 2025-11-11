@@ -39,6 +39,16 @@ export OWASP_JUICE_SHOP_PORT=3000
 - :heavy_check_mark: [Zero Stars](./solutions/level1/zero-stars) - `Improper Input Validation`
 
 ### :star::star: Challenges
+- :heavy_check_mark: [Reflected XSS](./solutions/level2/reflected-xss) - `Cross Site Scripting`
+- :heavy_check_mark: [Login Admin](./solutions/level2/login-admin) - `SQL Injection`
+- :heavy_check_mark: [Admin Section](./solutions/level2/admin-section) - `Security Misconfiguration`
+- :heavy_check_mark: [Password Strength](./solutions/level2/password-strength) - `Broken Authentication`
+- :heavy_check_mark: [View Basket](./solutions/level2/view-basket) - `Broken Access Control`
+- :heavy_check_mark: [Deprecated Interface](./solutions/level2/deprecated-interface) - `Security Misconfiguration`
+- :heavy_check_mark: [Five Star Feedback](./solutions/level2/reflected-xss) - `Broken Access Control`
+- :heavy_check_mark: [Login MC SafeSearch](./solutions/level2/login-mc-safesearch) - `Sensitive Data Exposure`
+- :heavy_check_mark: [Meta Geo Stalking](./solutions/level2/meta-geo-stalking) - `Sensitive Data Exposure`
+
 ### :star::star::star: Challenges
 ### :star::star::star::star: Challenges
 ### :star::star::star::star::star: Challenges
