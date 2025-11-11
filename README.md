@@ -8,6 +8,10 @@ Penetration Testing with OWASP Juice Shop
 4. Run `vagrant up` inside repo directory
 5. Browse to http://\<vm_ip\>:3000
 
+## Manual Solutions
+1. Change to solution directory
+2. See README.md file
+
 ## Python Solutions
 1. Setup Python environment on localhost
 ```
