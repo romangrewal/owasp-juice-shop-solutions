@@ -56,7 +56,7 @@ export OWASP_JUICE_SHOP_PORT=3000
 - :heavy_check_mark: [Forged Feedback](./solutions/level3/forged-feedback) - `Broken Access Control`
 - :heavy_check_mark: [Login Jim](./solutions/level3/login-jim) - `SQL Injection`
 - :heavy_check_mark: [Login Bender](./solutions/level3/login-bender) - `SQL Injection`
-- :heavy_check_mark: [Client-side XSS Protection](./solutions/level3/client-side XSS Protection) - `Cross Site Scripting`
+- :heavy_check_mark: [Client-side XSS Protection](./solutions/level3/client-side-xss-protection) - `Cross Site Scripting`
 
 ### :star::star::star::star: Challenges
 ### :star::star::star::star::star: Challenges
