@@ -57,6 +57,7 @@ export OWASP_JUICE_SHOP_PORT=3000
 - :heavy_check_mark: [Login Jim](./solutions/level3/login-jim) - `SQL Injection`
 - :heavy_check_mark: [Login Bender](./solutions/level3/login-bender) - `SQL Injection`
 - :heavy_check_mark: [API-only XSS](./solutions/level3/api-only-xss) - `Cross Site Scripting`
+- :heavy_check_mark: [Admin Registration](./solutions/level3/admin-registration) - `Improper Input Validation`
 - :heavy_check_mark: [Client-side XSS Protection](./solutions/level3/client-side-xss-protection) - `Cross Site Scripting`
 
 ### :star::star::star::star: Challenges
