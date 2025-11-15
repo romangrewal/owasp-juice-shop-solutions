@@ -48,8 +48,15 @@ export OWASP_JUICE_SHOP_PORT=3000
 - :heavy_check_mark: [Five Star Feedback](./solutions/level2/reflected-xss) - `Broken Access Control`
 - :heavy_check_mark: [Login MC SafeSearch](./solutions/level2/login-mc-safesearch) - `Sensitive Data Exposure`
 - :heavy_check_mark: [Meta Geo Stalking](./solutions/level2/meta-geo-stalking) - `Sensitive Data Exposure`
+- :heavy_check_mark: [NFT Takeover](./solutions/level2/nft-takeover) - `Sensitive Data Exposure`
+- :heavy_check_mark: [Security Policy](./solutions/level2/security-policy) - `Miscellaneous`
+- :heavy_check_mark: [Visual Geo Stalking](./solutions/level2/visual-geo-stalking) - `Sensitive Data Exposure`
 
 ### :star::star::star: Challenges
+- :heavy_check_mark: [Forged Feedback](./solutions/level3/forged-feedback) - `Broken Access Control`
+- :heavy_check_mark: [Login Jim](./solutions/level3/login-jim) - `SQL Injection`
+- :heavy_check_mark: [Login Bender](./solutions/level3/login-bender) - `SQL Injection`
+
 ### :star::star::star::star: Challenges
 ### :star::star::star::star::star: Challenges
 ### :star::star::star::star::star::star: Challenges
