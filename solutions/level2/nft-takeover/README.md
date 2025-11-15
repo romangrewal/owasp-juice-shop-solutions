@@ -1,12 +1,8 @@
 ## NFT Takeover
 ### Challenge: Take over the wallet containing our official Soul Bound Token (NFT).
 
-1. Log in to the application as any user
-2. Navigate to Complaint page in left hand menu
-3. Upload file type other than visually allowed PDF & ZIP
-4. Observe UI error message - "Forbidden file type"
-5. Search for declaration of the file upload in main.js with `zip` keyword
-6. Observe `application/xml` and `text/xml` along with the expected PDF and ZIP types in `allowedMimeType` array
-7. Upload any arbitrary XML file (<100KB)
-8. Submit form to complete this challenge
-9. Observe 410 (Gone) in JavaScript Console and error page in Network tab
+1. Go to the About Us section and check for the comment "Please send me the juicy chatbot NFT in my wallet at /juicy-nft".
+2. Find the 12 word seedphrase of the crypto wallet in that comment "purpose betray marriage blame crunch monitor spin slide donate sport lift clutch".
+3. Visit /juicy-nft in the Juice Shop App.
+4. Use the seedphrase found in the comment to derive the private key of the Ethereum wallet with the Python script.
+5. Enter the private key derived in the input box.
