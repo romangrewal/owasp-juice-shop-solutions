@@ -59,6 +59,7 @@ export OWASP_JUICE_SHOP_PORT=3000
 - :heavy_check_mark: [API-only XSS](./solutions/level3/api-only-xss) - `Cross Site Scripting`
 - :heavy_check_mark: [Admin Registration](./solutions/level3/admin-registration) - `Improper Input Validation`
 - :heavy_check_mark: [Bjoern's Favorite Pet](./solutions/level3/bjoerns-favorite-pet) - `Broken Authentication`
+- :heavy_check_mark: [CAPTCHA Bypass](./solutions/level3/captcha-bypass) - `Broken Anti Automation`
 - :heavy_check_mark: [Client-side XSS Protection](./solutions/level3/client-side-xss-protection) - `Cross Site Scripting`
 
 ### :star::star::star::star: Challenges
