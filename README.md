@@ -62,6 +62,7 @@ export OWASP_JUICE_SHOP_PORT=3000
 - :heavy_check_mark: [CAPTCHA Bypass](./solutions/level3/captcha-bypass) - `Broken Anti Automation`
 - :heavy_check_mark: [CSRF](./solutions/level3/csrf) - `Broken Access Control`
 - :heavy_check_mark: [Client-side XSS Protection](./solutions/level3/client-side-xss-protection) - `Cross Site Scripting`
+- :heavy_check_mark: [Database Schema](./solutions/level3/database-schema) - `SQL Injection`
 
 ### :star::star::star::star: Challenges
 ### :star::star::star::star::star: Challenges
