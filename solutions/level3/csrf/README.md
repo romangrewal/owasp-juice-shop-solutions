@@ -6,7 +6,7 @@
 3. Navigate to http://htmledit.squarefree.com in the same browser. It is intentional that the site is accessed without TLS, as otherwise there might be issues with the mixed-content policy of the browser.
 4. Paste the following HTML fragment, which contains a self-submitting HTML form:
     - ```
-      <form action="http://localhost:3000/profile" method="POST">
+      <form action="http://<vm_ip>:3000/profile" method="POST">
         <input name="username" value="CSRF"/>
         <input type="submit"/>
       </form>
