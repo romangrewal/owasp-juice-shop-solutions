@@ -8,7 +8,7 @@ try:
 	IP_ADDRESS = os.environ['OWASP_JUICE_SHOP_IP_ADDRESS']
 	PORT = os.environ['OWASP_JUICE_SHOP_PORT']
 
-  #User opens browser to security disclosure page
+  	#User opens browser to security disclosure page
 	driver.get(f"http://{IP_ADDRESS}:{PORT}/.well-known/security.txt")
 
 	input("Press Enter...")
