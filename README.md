@@ -64,6 +64,7 @@ export OWASP_JUICE_SHOP_PORT=3000
 - :heavy_check_mark: [Client-side XSS Protection](./solutions/level3/client-side-xss-protection) - `Cross Site Scripting`
 - :heavy_check_mark: [Database Schema](./solutions/level3/database-schema) - `SQL Injection`
 - :heavy_check_mark: [Deluxe Fraud](./solutions/level3/deluxe-fraud) - `Improper Input Validation`
+- :heavy_check_mark: [Forged Review](./solutions/level3/forged-review) - `Broken Access Control`
 
 ### :star::star::star::star: Challenges
 ### :star::star::star::star::star: Challenges
