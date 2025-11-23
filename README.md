@@ -66,6 +66,7 @@ export OWASP_JUICE_SHOP_PORT=3000
 - :heavy_check_mark: [Deluxe Fraud](./solutions/level3/deluxe-fraud) - `Improper Input Validation`
 - :heavy_check_mark: [Forged Review](./solutions/level3/forged-review) - `Broken Access Control`
 - :heavy_check_mark: [GDPR Data Erasure](./solutions/level3/gdpr-data-erasure) - `Broken Authentication`
+- :heavy_check_mark: [Login Amy](./solutions/level3/login-amy) - `Sensitive Data Exposure`
 
 ### :star::star::star::star: Challenges
 ### :star::star::star::star::star: Challenges
