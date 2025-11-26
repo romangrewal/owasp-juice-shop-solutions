@@ -20,7 +20,7 @@ try:
 	url = f"http://{IP_ADDRESS}:{PORT}/api/Feedbacks"
 
 	# Prepare the JSON payload for the request body
-	payload = {"UserId":23,"captchaId":6,"captcha":"1","comment":"xfhgk (***t@test.com)","rating":2}
+	payload = {"captchaId":1,"captcha":"-33","comment":"dfhsd (anonymous)","rating":2}
 
 	for i in range(11):
 		# Send the POST request with the JSON payload
