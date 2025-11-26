@@ -62,7 +62,7 @@ export OWASP_JUICE_SHOP_PORT=3000
 - :heavy_check_mark: [CAPTCHA Bypass](./solutions/level3/captcha-bypass) ([video](https://www.youtube.com/watch?v=eQn_AQDbA5Q)) - `Broken Anti Automation`
 - :heavy_check_mark: [CSRF](./solutions/level3/csrf) ([video](https://www.youtube.com/watch?v=dz8jsnKgcB0)) - `Broken Access Control`
 - :heavy_check_mark: [Client-side XSS Protection](./solutions/level3/client-side-xss-protection) ([video](https://www.youtube.com/watch?v=EtGZb_xOBoo)) - `Cross Site Scripting`
-- :heavy_check_mark: [Database Schema](./solutions/level3/database-schema) - `SQL Injection`
+- :heavy_check_mark: [Database Schema](./solutions/level3/database-schema) ([video](https://www.youtube.com/watch?v=z-4_w2i96WU)) - `SQL Injection`
 - :heavy_check_mark: [Deluxe Fraud](./solutions/level3/deluxe-fraud) - `Improper Input Validation`
 - :heavy_check_mark: [Forged Review](./solutions/level3/forged-review) - `Broken Access Control`
 - :heavy_check_mark: [GDPR Data Erasure](./solutions/level3/gdpr-data-erasure) - `Broken Authentication`
