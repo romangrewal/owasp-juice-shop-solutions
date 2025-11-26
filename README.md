@@ -59,7 +59,7 @@ export OWASP_JUICE_SHOP_PORT=3000
 - :heavy_check_mark: [API-only XSS](./solutions/level3/api-only-xss) ([video](https://www.youtube.com/watch?v=pXvIgQkMac8)) - `Cross Site Scripting`
 - :heavy_check_mark: [Admin Registration](./solutions/level3/admin-registration) ([video](https://www.youtube.com/watch?v=7aCv0DogHLc)) - `Improper Input Validation`
 - :heavy_check_mark: [Bjoern's Favorite Pet](./solutions/level3/bjoerns-favorite-pet) ([video](https://www.youtube.com/watch?v=-5OP8VI6a7c)) - `Broken Authentication`
-- :heavy_check_mark: [CAPTCHA Bypass](./solutions/level3/captcha-bypass) - `Broken Anti Automation`
+- :heavy_check_mark: [CAPTCHA Bypass](./solutions/level3/captcha-bypass) ([video](https://www.youtube.com/watch?v=eQn_AQDbA5Q)) - `Broken Anti Automation`
 - :heavy_check_mark: [CSRF](./solutions/level3/csrf) - `Broken Access Control`
 - :heavy_check_mark: [Client-side XSS Protection](./solutions/level3/client-side-xss-protection) - `Cross Site Scripting`
 - :heavy_check_mark: [Database Schema](./solutions/level3/database-schema) - `SQL Injection`
