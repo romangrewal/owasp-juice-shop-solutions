@@ -70,6 +70,7 @@ export OWASP_JUICE_SHOP_PORT=3000
 
 ### :star::star::star::star: Challenges
 - :heavy_check_mark: [Access Log](./solutions/level4/access-log) - `Sensitive Data Exposure`
+- :heavy_check_mark: [Allowlist Bypass](./solutions/level4/allowlist-bypass) - `Unvalidated Redirects`
 
 ### :star::star::star::star::star: Challenges
 ### :star::star::star::star::star::star: Challenges
