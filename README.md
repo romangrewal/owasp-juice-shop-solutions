@@ -69,5 +69,7 @@ export OWASP_JUICE_SHOP_PORT=3000
 - :heavy_check_mark: [Login Amy](./solutions/level3/login-amy) - `Sensitive Data Exposure`
 
 ### :star::star::star::star: Challenges
+- :heavy_check_mark: [Access Log](./solutions/level4/access-log) - `Sensitive Data Exposure`
+
 ### :star::star::star::star::star: Challenges
 ### :star::star::star::star::star::star: Challenges
