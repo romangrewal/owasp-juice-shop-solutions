@@ -6,7 +6,7 @@
     - This file indicates web access from a support team
 3. Using ffuf, check to see if there are any files in `support` directory, verifying existance of `support` directory and `logs` file.
 
-        ffuf -w ~/kraken/wordlists/directory_wordlists.txt -u http://<vm_ip>:3000/support/FUZZ -fs 75002
+        ffuf -w directory_wordlists.txt -u http://<vm_ip>:3000/support/FUZZ -fs 75002
 
 4. Download `access.log.DATE` file.
 5. Visit home page to solve this challenge.
