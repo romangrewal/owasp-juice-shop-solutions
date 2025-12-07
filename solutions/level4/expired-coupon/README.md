@@ -6,7 +6,7 @@
 3. Proceed through checkout until you see the option to add a coupon.
 4. Open `main.js` in your Browser’s dev tools and search for campaign.
 5. In the campaigns object, you will see several campaign coupon codes.
-  - Choose the oldest one, which is `WMNSDY2019`
+   - Choose the oldest one, which is `WMNSDY2019`
 6. Verify the `validOn` date with JavaScript
 7. Set the time of your computer to this date
 8. Redeem the coupon code in the web application
