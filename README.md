@@ -72,6 +72,7 @@ export OWASP_JUICE_SHOP_PORT=3000
 - :heavy_check_mark: [Access Log](./solutions/level4/access-log) - `Sensitive Data Exposure`
 - :heavy_check_mark: [Allowlist Bypass](./solutions/level4/allowlist-bypass) - `Unvalidated Redirects`
 - :heavy_check_mark: [Expired Coupon](./solutions/level4/expired-coupon) - `Improper Input Validation`
+- :heavy_check_mark: [Login Bjoern](./solutions/level4/login-bjoern) - `Broken Authentication`
 
 ### :star::star::star::star::star: Challenges
 ### :star::star::star::star::star::star: Challenges
