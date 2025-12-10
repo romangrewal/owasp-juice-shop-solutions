@@ -66,7 +66,7 @@ export OWASP_JUICE_SHOP_PORT=3000
 - :heavy_check_mark: [Deluxe Fraud](./solutions/level3/deluxe-fraud) ([video](https://www.youtube.com/watch?v=59I5bhGSGSc)) - `Improper Input Validation`
 - :heavy_check_mark: [Forged Review](./solutions/level3/forged-review) ([video](https://www.youtube.com/watch?v=nVnqA3_3ds0)) - `Broken Access Control`
 - :heavy_check_mark: [GDPR Data Erasure](./solutions/level3/gdpr-data-erasure) ([video](https://www.youtube.com/watch?v=PkD60KpQFRE)) - `Broken Authentication`
-- :heavy_check_mark: [Login Amy](./solutions/level3/login-amy) - `Sensitive Data Exposure`
+- :heavy_check_mark: [Login Amy](./solutions/level3/login-amy) ([video](https://www.youtube.com/watch?v=aFQbhVvUFEw)) - `Sensitive Data Exposure`
 
 ### :star::star::star::star: Challenges
 - :heavy_check_mark: [Access Log](./solutions/level4/access-log) - `Sensitive Data Exposure`
