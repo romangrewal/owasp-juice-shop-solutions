@@ -70,7 +70,7 @@ export OWASP_JUICE_SHOP_PORT=3000
 
 ### :star::star::star::star: Challenges
 - :heavy_check_mark: [Access Log](./solutions/level4/access-log) ([video](https://www.youtube.com/watch?v=kwxGB2PCRHQ)) - `Sensitive Data Exposure`
-- :heavy_check_mark: [Allowlist Bypass](./solutions/level4/allowlist-bypass) - `Unvalidated Redirects`
+- :heavy_check_mark: [Allowlist Bypass](./solutions/level4/allowlist-bypass) ([video](https://www.youtube.com/watch?v=Zu43uOcuU_E)) - `Unvalidated Redirects`
 - :heavy_check_mark: [CSP Bypass](./solutions/level4/csp-bypass) - `Cross Site Scripting`
 - :heavy_check_mark: [Expired Coupon](./solutions/level4/expired-coupon) - `Improper Input Validation`
 - :heavy_check_mark: [Forgotten Developer Backup](./solutions/level4/forgotten-developer-backup) - `Sensitive Data Exposure`
