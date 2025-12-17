@@ -74,7 +74,7 @@ export OWASP_JUICE_SHOP_PORT=3000
 - :heavy_check_mark: [CSP Bypass](./solutions/level4/csp-bypass) ([video](https://www.youtube.com/watch?v=lTdlRyUgj1U)) - `Cross Site Scripting`
 - :heavy_check_mark: [Expired Coupon](./solutions/level4/expired-coupon) ([video](https://www.youtube.com/watch?v=oq2Ssw-TlM4)) - `Improper Input Validation`
 - :heavy_check_mark: [Forgotten Developer Backup](./solutions/level4/forgotten-developer-backup) ([video](https://www.youtube.com/watch?v=Po3mr8TRAn4)) - `Sensitive Data Exposure`
-- :heavy_check_mark: [Forgotten Sales Backup](./solutions/level4/forgotten-sales-backup) - `Sensitive Data Exposure`
+- :heavy_check_mark: [Forgotten Sales Backup](./solutions/level4/forgotten-sales-backup) ([video](https://www.youtube.com/watch?v=82PGjUU3zAg)) - `Sensitive Data Exposure`
 - :heavy_check_mark: [Login Bjoern](./solutions/level4/login-bjoern) - `Broken Authentication`
 
 ### :star::star::star::star::star: Challenges
