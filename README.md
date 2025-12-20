@@ -80,6 +80,7 @@ export OWASP_JUICE_SHOP_PORT=3000
 - :heavy_check_mark: [NoSQL DoS](./solutions/level4/nosql-dos) - `NoSQL Injection`
 - :heavy_check_mark: [NoSQL Manipulation](./solutions/level4/nosql-manipulation) - `NoSQL Injection`
 - :heavy_check_mark: [Steganography](./solutions/level4/steganography) - `Security through Obscurity`
+- :heavy_check_mark: [User Credentials](./solutions/level4/user-credentials) - `SQL Injection`
 
 ### :star::star::star::star::star: Challenges
 ### :star::star::star::star::star::star: Challenges
