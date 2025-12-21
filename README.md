@@ -79,7 +79,7 @@ export OWASP_JUICE_SHOP_PORT=3000
 - :heavy_check_mark: [Misplaced Signature File](./solutions/level4/misplaced-signature-file) ([video](https://www.youtube.com/watch?v=8jcSFQl3fC0)) - `Sensitive Data Exposure`
 - :heavy_check_mark: [NoSQL DoS](./solutions/level4/nosql-dos) ([video](https://www.youtube.com/watch?v=vOumGN20eyU)) - `NoSQL Injection`
 - :heavy_check_mark: [NoSQL Manipulation](./solutions/level4/nosql-manipulation) ([video](https://www.youtube.com/watch?v=8HXudIULZh4)) - `NoSQL Injection`
-- :heavy_check_mark: [Steganography](./solutions/level4/steganography) - `Security through Obscurity`
+- :heavy_check_mark: [Steganography](./solutions/level4/steganography) ([video](https://www.youtube.com/watch?v=J9EMkvvtpJ8)) - `Security through Obscurity`
 - :heavy_check_mark: [User Credentials](./solutions/level4/user-credentials) - `SQL Injection`
 
 ### :star::star::star::star::star: Challenges
