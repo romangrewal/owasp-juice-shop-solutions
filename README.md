@@ -76,7 +76,7 @@ export OWASP_JUICE_SHOP_PORT=3000
 - :heavy_check_mark: [Forgotten Developer Backup](./solutions/level4/forgotten-developer-backup) ([video](https://www.youtube.com/watch?v=Po3mr8TRAn4)) - `Sensitive Data Exposure`
 - :heavy_check_mark: [Forgotten Sales Backup](./solutions/level4/forgotten-sales-backup) ([video](https://www.youtube.com/watch?v=82PGjUU3zAg)) - `Sensitive Data Exposure`
 - :heavy_check_mark: [Login Bjoern](./solutions/level4/login-bjoern) ([video](https://www.youtube.com/watch?v=YEjIlHENpkM)) - `Broken Authentication`
-- :heavy_check_mark: [Misplaced Signature File](./solutions/level4/misplaced-signature-file) - `Sensitive Data Exposure`
+- :heavy_check_mark: [Misplaced Signature File](./solutions/level4/misplaced-signature-file) ([video](https://www.youtube.com/watch?v=8jcSFQl3fC0)) - `Sensitive Data Exposure`
 - :heavy_check_mark: [NoSQL DoS](./solutions/level4/nosql-dos) - `NoSQL Injection`
 - :heavy_check_mark: [NoSQL Manipulation](./solutions/level4/nosql-manipulation) - `NoSQL Injection`
 - :heavy_check_mark: [Steganography](./solutions/level4/steganography) - `Security through Obscurity`
