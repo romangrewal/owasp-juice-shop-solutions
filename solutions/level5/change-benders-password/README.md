@@ -11,6 +11,6 @@
     - repeat = `String`
 4. Log in with Bender's account using SQL injection.
     - Email `bender@juice-sh.op'--` and any Password
-5. Craft a GET request with Bender’s Authorization header token to `/rest/user/change-password` and "slurmCl4ssic" as the new and repeat password
+5. Craft a GET request with Bender’s Authorization header token to `/rest/user/change-password` and "slurmCl4ssic" as the new and repeat password parameters
     - new = slurmCl4ssic
     - repeat = slurmCl4ssic
