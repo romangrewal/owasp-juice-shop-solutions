@@ -427,6 +427,8 @@ apanel
 apc
 apexec
 api
+api-doc
+api-docs
 apis
 apl
 apm
