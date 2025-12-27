@@ -1,17 +1,10 @@
 Vagrant.configure("2") do |config|
   config.vm.box = "centos/stream9"
-  config.vm.box_version = "20250922.0"
   config.vm.network "public_network"
-#  config.disksize.size = '50GB'
   config.vm.provider "virtualbox" do |v|
     v.memory = 4096
     v.cpus = 2
   end
-
-  config.vm.provision "shell", inline: <<-SHELL
-    cp /vagrant/vaultpass /home/vagrant/vaultpass
-    chmod 644 /home/vagrant/vaultpass
-  SHELL
 
   config.vm.provision "shell", inline: <<-SHELL
     echo 'Defaults:vagrant !requiretty' | sudo tee /etc/sudoers.d/vagrant-nopty

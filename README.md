@@ -83,4 +83,6 @@ export OWASP_JUICE_SHOP_PORT=3000
 - :heavy_check_mark: [User Credentials](./solutions/level4/user-credentials) ([video](https://www.youtube.com/watch?v=UrIjv2lg7Tw)) - `SQL Injection`
 
 ### :star::star::star::star::star: Challenges
+- :heavy_check_mark: [Blocked RCE DoS](./solutions/level5/blocked-rce-dos) - `Insecure Deserialization`
+
 ### :star::star::star::star::star::star: Challenges
