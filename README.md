@@ -84,5 +84,6 @@ export OWASP_JUICE_SHOP_PORT=3000
 
 ### :star::star::star::star::star: Challenges
 - :heavy_check_mark: [Blocked RCE DoS](./solutions/level5/blocked-rce-dos) - `Insecure Deserialization`
+- :heavy_check_mark: [Change Bender's Password](./solutions/level5/change-benders-password) - `Broken Authentication`
 
 ### :star::star::star::star::star::star: Challenges
