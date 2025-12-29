@@ -87,6 +87,6 @@ export OWASP_JUICE_SHOP_PORT=3000
 - :heavy_check_mark: [Change Bender's Password](./solutions/5-stars/change-benders-password) ([video](https://www.youtube.com/watch?v=lj3IIJCCvRw&t=5s)) - `Broken Authentication`
 - :heavy_check_mark: [Email Leak](./solutions/5-stars/email-leak) ([video](https://www.youtube.com/watch?v=mrW7-tU94K0)) - `Sensitive Data Exposure`
 - :heavy_check_mark: [Frontend Typosquatting](./solutions/5-stars/frontend-typosquatting) ([video](https://www.youtube.com/watch?v=qXrN0pxTzUU)) - `Vulnerable Components`
-- :heavy_check_mark: [Kill Chatbot](./solutions/5-stars/kill-chatbot) - `Vulnerable Components`
+- :heavy_check_mark: [Kill Chatbot](./solutions/5-stars/kill-chatbot) ([video](https://www.youtube.com/watch?v=lxnF4BZUdj8)) - `Vulnerable Components`
 
 ### :star::star::star::star::star::star: Challenges
