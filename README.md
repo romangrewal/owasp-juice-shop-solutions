@@ -84,7 +84,7 @@ export OWASP_JUICE_SHOP_PORT=3000
 
 ### :star::star::star::star::star: Challenges
 - :heavy_check_mark: [Blocked RCE DoS](./solutions/5-stars/blocked-rce-dos) ([video](https://www.youtube.com/watch?v=u5Ii-7KB82U)) - `Insecure Deserialization`
-- :heavy_check_mark: [Change Bender's Password](./solutions/5-stars/change-benders-password) - `Broken Authentication`
+- :heavy_check_mark: [Change Bender's Password](./solutions/5-stars/change-benders-password) ([video](https://www.youtube.com/watch?v=lj3IIJCCvRw&t=5s)) - `Broken Authentication`
 - :heavy_check_mark: [Email Leak](./solutions/5-stars/email-leak) - `Sensitive Data Exposure`
 - :heavy_check_mark: [Frontend Typosquatting](./solutions/5-stars/frontend-typosquatting) - `Vulnerable Components`
 - :heavy_check_mark: [Kill Chatbot](./solutions/5-stars/kill-chatbot) - `Vulnerable Components`
