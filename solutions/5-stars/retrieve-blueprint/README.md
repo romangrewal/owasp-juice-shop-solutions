@@ -1,5 +1,5 @@
-## NoSQL Exfiltration
-### Challenge: All your orders are belong to us! Even the ones which don't.
+## Memory Bomb
+### Challenge: Drop some explosive data into a vulnerable file-handling endpoint.
 
 1. Log in as any user.
 2. Order an item.
