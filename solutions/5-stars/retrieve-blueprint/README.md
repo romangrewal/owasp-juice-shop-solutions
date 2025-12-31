@@ -1,11 +1,8 @@
-## Memory Bomb
-### Challenge: Drop some explosive data into a vulnerable file-handling endpoint.
+## Retrieve Blueprint
+### Challenge: Deprive the shop of earnings by downloading the blueprint for one of its products.
 
-1. Log in as any user.
-2. Order an item.
-3. Navigate to the _Track Order_ page.
-4. Observe the GET request to the rest/track-order/id route in your browser's DevTools.
-5. Search for a single quote `'` as the id to throw an error.
-6. Search for two single quotes `''` to throw an unexpected string error, verifying the id parameter can be enclosed in two single quotes.
-7. Squeeze a MongoDB search parameter inside the single quotes (url-encoded) to solve this challenge.
-    - `' || true || '` as `rest/track-order/'%20%7C%7C%20true%20%7C%7C%20'`
+1. View the description of the `OWASP Juice Shop Logo (3D-printed)` product.
+2. Download the image of the product.
+3. View the Exif metadata of the file to observe the camera model as OpenSCAD.
+4. Research the camera model to reveal that this is a program to create 3D models, which works with `.stl` files.
+5. Download `JuiceShop.stl` from the `assets/public/images/products/` folder to solve this challenge.
