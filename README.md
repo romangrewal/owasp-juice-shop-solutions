@@ -90,5 +90,6 @@ export OWASP_JUICE_SHOP_PORT=3000
 - :heavy_check_mark: [Kill Chatbot](./solutions/5-stars/kill-chatbot) ([video](https://www.youtube.com/watch?v=lxnF4BZUdj8)) - `Vulnerable Components`
 - :heavy_check_mark: [Local File Read](./solutions/5-stars/local-file-read) - `Vulnerable Components`
 - :heavy_check_mark: [Memory Bomb](./solutions/5-stars/memory-bomb) - `Insecure Deserialization`
+- :heavy_check_mark: [NoSQL Exfiltration](./solutions/5-stars/nosql-exfiltration) - `NoSQL Injection`
 
 ### :star::star::star::star::star::star: Challenges
