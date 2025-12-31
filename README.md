@@ -92,5 +92,6 @@ export OWASP_JUICE_SHOP_PORT=3000
 - :heavy_check_mark: [Memory Bomb](./solutions/5-stars/memory-bomb) - `Insecure Deserialization`
 - :heavy_check_mark: [NoSQL Exfiltration](./solutions/5-stars/nosql-exfiltration) - `NoSQL Injection`
 - :heavy_check_mark: [Retrieve Blueprint](./solutions/5-stars/retrieve-blueprint) - `Sensitive Data Exposure`
+- :heavy_check_mark: [Supply Chain Attack](./solutions/5-stars/supply-chain-attack) - `Vulnerable Components`
 
 ### :star::star::star::star::star::star: Challenges
