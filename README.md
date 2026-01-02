@@ -88,7 +88,7 @@ export OWASP_JUICE_SHOP_PORT=3000
 - :heavy_check_mark: [Email Leak](./solutions/5-stars/email-leak) ([video](https://www.youtube.com/watch?v=mrW7-tU94K0)) - `Sensitive Data Exposure`
 - :heavy_check_mark: [Frontend Typosquatting](./solutions/5-stars/frontend-typosquatting) ([video](https://www.youtube.com/watch?v=qXrN0pxTzUU)) - `Vulnerable Components`
 - :heavy_check_mark: [Kill Chatbot](./solutions/5-stars/kill-chatbot) ([video](https://www.youtube.com/watch?v=lxnF4BZUdj8)) - `Vulnerable Components`
-- :heavy_check_mark: [Local File Read](./solutions/5-stars/local-file-read) ([video](https://www.youtube.com/watch?v=QFf2OSagLds)) - `Vulnerable Components`
+- :heavy_check_mark: [Local File Read](./solutions/5-stars/local-file-read) ([video](https://www.youtube.com/watch?v=mUmYWo1fLls)) - `Vulnerable Components`
 - :heavy_check_mark: [Memory Bomb](./solutions/5-stars/memory-bomb) - `Insecure Deserialization`
 - :heavy_check_mark: [NoSQL Exfiltration](./solutions/5-stars/nosql-exfiltration) - `NoSQL Injection`
 - :heavy_check_mark: [Retrieve Blueprint](./solutions/5-stars/retrieve-blueprint) - `Sensitive Data Exposure`
