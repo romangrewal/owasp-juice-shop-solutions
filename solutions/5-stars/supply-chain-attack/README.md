@@ -11,4 +11,4 @@
 4. Visit `http://status.npmjs.org/incidents/dn7c1fgrr7ng` for the pinned version `3.7.2`.
 5. From the incident report on NPM, click on the original report of the vulnerability: `https://github.com/eslint/eslint-scope/issues/39`.
 6. Visit the customer feedback page.
-7. Submit your feedback with https://github.com/eslint/eslint-scope/issues/39 in the comment to solve this challenge.
+7. Submit your feedback with `https://github.com/eslint/eslint-scope/issues/39` in the comment to solve this challenge.
