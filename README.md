@@ -93,7 +93,7 @@ export OWASP_JUICE_SHOP_PORT=3000
 - :heavy_check_mark: [NoSQL Exfiltration](./solutions/5-stars/nosql-exfiltration) ([video](https://www.youtube.com/watch?v=-FWLYkk-v8Y)) - `NoSQL Injection`
 - :heavy_check_mark: [Retrieve Blueprint](./solutions/5-stars/retrieve-blueprint) ([video](https://www.youtube.com/watch?v=lrO5SJWEAiU)) - `Sensitive Data Exposure`
 - :heavy_check_mark: [Supply Chain Attack](./solutions/5-stars/supply-chain-attack) ([video](https://www.youtube.com/watch?v=59ez2VxttUQ)) - `Vulnerable Components`
-- :heavy_check_mark: [Unsigned JWT](./solutions/5-stars/unsigned-jwt) - `Vulnerable Components`
+- :heavy_check_mark: [Unsigned JWT](./solutions/5-stars/unsigned-jwt) ([video](https://www.youtube.com/watch?v=MMvL-g7l0gU)) - `Vulnerable Components`
 - :heavy_check_mark: [XXE DoS](./solutions/5-stars/xxe-dos) - `XXE`
 
 ### :star::star::star::star::star::star: Challenges
