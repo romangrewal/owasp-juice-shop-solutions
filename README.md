@@ -99,3 +99,4 @@ export OWASP_JUICE_SHOP_PORT=3000
 ### :star::star::star::star::star::star: Challenges
 - :heavy_check_mark: [Arbitrary File Write](./solutions/6-stars/arbitrary-file-write) - `Vulnerable Components`
 - :heavy_check_mark: [Premium Paywall](./solutions/6-stars/premium-paywall) - `Cryptographic Issues`
+- :heavy_check_mark: [Successful RCE DoS](./solutions/6-stars/successful-rce-dos) - `Insecure Deserialization`
