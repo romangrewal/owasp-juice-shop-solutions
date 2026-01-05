@@ -97,3 +97,4 @@ export OWASP_JUICE_SHOP_PORT=3000
 - :heavy_check_mark: [XXE DoS](./solutions/5-stars/xxe-dos) ([video](https://www.youtube.com/watch?v=Jst7dKQTnzs)) - `XML External Entity`
 
 ### :star::star::star::star::star::star: Challenges
+- :heavy_check_mark: [Arbitrary File Write](./solutions/6-stars/arbitrary-file-write) - `Vulnerable Components`
