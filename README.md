@@ -102,5 +102,5 @@ export OWASP_JUICE_SHOP_PORT=3000
 - :heavy_check_mark: [Login Support Team](./solutions/6-stars/login-support-team) - `Security Misconfiguration`
 - :heavy_check_mark: [Multiple Likes](./solutions/6-stars/multiple-likes) - `Broken Anti Automation`
 - :heavy_check_mark: [Premium Paywall](./solutions/6-stars/premium-paywall) - `Cryptographic Issues`
-- [SSRF / SSTi](./solutions/6-stars/ssrf-ssti) - `Broken Access Control / Server Side Template Injection`
+- :heavy_check_mark: [SSRF](./solutions/6-stars/ssrf) - `Broken Access Control`
 - :heavy_check_mark: [Successful RCE DoS](./solutions/6-stars/successful-rce-dos) - `Insecure Deserialization`
