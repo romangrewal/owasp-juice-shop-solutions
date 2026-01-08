@@ -13,7 +13,7 @@
 10. Run a string search to find the full URL of its destined endpoint as http://localhost:3000/solve/challenges/server-side?key=tRy_H4rd3r_n0thIng_iS_Imp0ssibl3
 11. Log in as any user in the web application.
 12. Visit the profile page.
-13. Verify the server is making external requests for image files by inputting an image URL in the `Image URL` field.
+13. Verify the server is making external requests for image files by submitting an image URL in the `Image URL` field.
     - e.g. https://placecats.com/100/100 as the `Image URL` will display a profile image of a cat with no outgoing requests from the browser (the request was made by the server).
 14. Paste the destined endpoint for `juicy malware` as the `Image URL`.
 15. Click the `Link Image` button.
