@@ -100,7 +100,7 @@ export OWASP_JUICE_SHOP_PORT=3000
 - :heavy_check_mark: [Arbitrary File Write](./solutions/6-stars/arbitrary-file-write) ([video](https://www.youtube.com/watch?v=_9dg_CVrI_w)) - `Vulnerable Components`
 - :heavy_check_mark: [Forged Coupon](./solutions/6-stars/forged-coupon) ([video](https://www.youtube.com/watch?v=d4uJnbdJW-Y)) - `Cryptographic Issues`
 - :heavy_check_mark: [Login Support Team](./solutions/6-stars/login-support-team) ([video](https://www.youtube.com/watch?v=s-aynKnUJZ8)) - `Security Misconfiguration`
-- :heavy_check_mark: [Multiple Likes](./solutions/6-stars/multiple-likes) - `Broken Anti Automation`
+- :heavy_check_mark: [Multiple Likes](./solutions/6-stars/multiple-likes) ([video](https://www.youtube.com/watch?v=iyRhG8OojCY)) - `Broken Anti Automation`
 - :heavy_check_mark: [Premium Paywall](./solutions/6-stars/premium-paywall) - `Cryptographic Issues`
 - :heavy_check_mark: [SSRF](./solutions/6-stars/ssrf) - `Broken Access Control`
 - :heavy_check_mark: [SSTi](./solutions/6-stars/ssti) - `Server Side Template Injection`
