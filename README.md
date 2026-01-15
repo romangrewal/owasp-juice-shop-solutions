@@ -1,5 +1,5 @@
 # OWASP Juice Shop Solutions
-Penetration Testing with OWASP Juice Shop
+Web Application Penetration Testing with OWASP Juice Shop
 
 ## Installation & Setup
 1. Install VirtualBox
