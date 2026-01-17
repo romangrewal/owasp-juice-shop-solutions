@@ -105,4 +105,4 @@ export OWASP_JUICE_SHOP_PORT=3000
 - :heavy_check_mark: [SSRF](./solutions/6-stars/ssrf) ([video](https://www.youtube.com/watch?v=rrMltWHLDPM)) - `Broken Access Control`
 - :heavy_check_mark: [SSTi](./solutions/6-stars/ssti) ([video](https://www.youtube.com/watch?v=cUzvNDRNi6M)) - `Server Side Template Injection`
 - :heavy_check_mark: [Successful RCE DoS](./solutions/6-stars/successful-rce-dos) ([video](https://www.youtube.com/watch?v=zATUhJxucRo)) - `Insecure Deserialization`
-- :heavy_check_mark: [Video XSS](./solutions/6-stars/video-xss) - `Cross Site Scripting`
+- :heavy_check_mark: [Video XSS](./solutions/6-stars/video-xss) ([video](https://www.youtube.com/watch?v=m83IDNou9os)) - `Cross Site Scripting`
